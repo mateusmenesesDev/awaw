@@ -874,3 +874,57 @@ header {
     background-color: rgb(226, 32, 32);
 }
 
+/* CONTACT US */
+
+.default.light.contact-us {
+    background-color: #EEE;
+    border-top: 2px solid #CCC;
+}
+
+.default.light.contact-us .section-desc{
+    color: #999;
+}
+
+.section-contact-us--form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #999;
+}
+
+.section-contact-us-userinfo {
+    width: 70%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-contact-us--form label{
+    width: 70%;
+}
+.section-contact-us--form input{
+    width: 100%;
+}
+
+.section-contact-us--form input{
+    border: none;
+    border-bottom: solid 3px #CCC;
+    background: none;
+}
+
+.section-contact-us--form input:focus{
+    outline: none;
+}
+
+.message {
+    margin-top: 30px;
+}
+
+.button {
+    border: none;
+    width: 200px;
+    height: 50px;
+}
