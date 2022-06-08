@@ -96,7 +96,7 @@ header {
 .banner {
     height: calc(100vh - 100px);
     background-color: #333;
-    background-image: url('/assets/images/bg.jpg');
+    background-image: url('../images/bg1.jpg');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
@@ -343,7 +343,7 @@ header {
 
 /*****************PROJECTS PHOTOS*****************/
 .section-projects-photos {
-    width: 100vw;
+    width: 100%;
     max-width: 1140px;
     margin-top: 20px;
     display: flex;
@@ -356,6 +356,7 @@ header {
 }
 
 .section-projects--photoarea {
+    overflow: hidden;
     margin: 10px;
     width: 260px;
     height: 160px;
@@ -393,7 +394,7 @@ header {
 /*****************TEAM*****************/
 
 .team{
-    background:linear-gradient(rgba(0,0,0,70%),rgba(0,0,0,70%)),url('/media/complementos/city2.jpg');    
+    background:linear-gradient(rgba(0,0,0,70%),rgba(0,0,0,70%)),url('../../media/complementos/city2.jpg');    
     background-size: cover;
     background-position:center;
 }
