@@ -447,8 +447,6 @@ header {
 }
 
 
-
-
 .section-team--avatar {
     width: 150px;
     height: auto;
@@ -764,6 +762,8 @@ header {
     text-align: center;
 }
 
+
+/* SEÇÃO FACTS */
 .section-facts {
     display: flex;
     /* flex-wrap: wrap; */
@@ -804,3 +804,72 @@ header {
     margin-top: 15px;
     color: #999;
 }
+
+
+
+/* SEÇÃO NETWORK */
+.section-network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.section-network--share {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-network--share p {
+    color: #999;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.section-network--social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.section-network--social-icon {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.section-network--social-plataform {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.section-network--social-plataform p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.twitter {
+    background-color: rgb(32, 197, 226);
+}
+.linkedin {
+    background-color: rgb(32, 139, 226);
+}
+.facebook {
+    background-color: rgb(32, 116, 226);
+}
+.googleplus {
+    background-color: rgb(226, 55, 32);
+}
+.pinterest {
+    background-color: rgb(226, 32, 32);
+}
+
