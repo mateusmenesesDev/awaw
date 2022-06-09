@@ -1055,7 +1055,29 @@ header {
 .section-footer--social-mobile{
     display: none;
 }
+@media (max-width:425px) {
+    .section-contact-us--form {
+        gap: 20px;
+        margin: 20px;
+        width: auto;
+    }
 
+    .section-contact-us--form label{
+        width: 100%;
+    }
+    .section-contact-us-userinfo {
+        flex-direction: column;
+    }
+    .section-contact-us-userinfo,
+    .section-contact-us-userinfo label,
+    .section-contact-us-userinfo input{
+        
+        width: 100%;
+    }
+    .message {
+        margin-top: 0px;
+    }
+}
 @media (max-width:765px) {
     
     /* SERVICES */
