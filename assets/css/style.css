@@ -1057,6 +1057,17 @@ header {
 }
 
 @media (max-width:765px) {
+    
+    /* SERVICES */
+
+    .section-services {
+        flex-direction: column;
+    }
+
+    .section-services-item,
+    .section-services-item:first-child {
+        border: none;
+    }
 
     /* FOOTER */
     .section-footer-area {
