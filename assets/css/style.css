@@ -1048,5 +1048,29 @@ header {
     align-items: center;
     width: 200px;
     height: 50px;
-    
+}
+
+@media (max-width:765px) {
+    .section-footer-area {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .section-footer--subscribe{
+        justify-content: center;
+    }
+    .section-footer--subscribe-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+    }
+    .section-footer--copy-social {
+        gap: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    .section-footer--social {
+        display: none;
+    }
 }
