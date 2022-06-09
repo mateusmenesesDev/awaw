@@ -777,6 +777,7 @@ header {
 
 .section-facts--title {
     font-size: 54px;
+    font-weight: 700;
     color: #B28756;
 }
 
@@ -785,7 +786,7 @@ header {
     margin: auto;
     content: '';
     width: 20px;
-    height: 2px;
+    height: 1px;
     background-color: #FFF;
 }
 
@@ -1090,7 +1091,24 @@ header {
     .section-services-item:first-child {
         border: none;
     }
+    /* FACTS */
 
+    .section-facts {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-facts--area {
+        margin: 20px;
+        max-width: 100%;
+    }
+
+    .section-facts--desc {
+        font-size: 18px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
     /* FOOTER */
     .section-footer-area {
         flex-direction: column-reverse;
@@ -1125,5 +1143,6 @@ header {
         width: 35px;
         height: 35px;
     }
+
     /* FOOTER */
 }
