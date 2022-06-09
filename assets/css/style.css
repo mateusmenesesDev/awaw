@@ -522,6 +522,7 @@ header {
     height: 100%;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 
 
@@ -561,7 +562,9 @@ header {
 
 .depoiment {
     text-align: center;
-    max-width: 50%;
+    max-width: 935px;
+    width: 100%;
+    color: #999;
 }
 
 /*****************HAPPY CLIENTES*****************/
@@ -679,6 +682,7 @@ header {
     max-width: 100%;
 }
  .section-premium--area { 
+     /* margin: 0px 20px; */
      max-width: 557px; 
  }
 .section-premium--titletext {
