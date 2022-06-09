@@ -235,20 +235,26 @@ header {
 .section-aboutus {
     gap: 20px;
     flex-wrap: wrap;
+    margin: 20px;
 }
 .section-aboutus--left {
     flex: 1;
-    min-width: 226px;
+    min-width: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-aboutus--left p{
+    
     font-size: 14px;
     line-height: 25px;
 }
+
 .section-aboutus--right {
-    max-width: 520px;
+    margin: auto;
+    max-width: 500px;
     text-align: center;
-    
 }
 
 .section-aboutus--right img {
