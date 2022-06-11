@@ -281,7 +281,6 @@ header {
 }
 .section-services-item {
     flex-grow: 1;
-    min-width: 260px;
     text-align: center;
     border-right: 1px solid #333;
 }
@@ -1196,5 +1195,9 @@ header {
     .nav_logo {
         width: 55px;
         margin-left: 30px;
+    }
+
+    .section-services-item {
+        min-width: 45%;
     }
 }
