@@ -59,6 +59,7 @@ header {
 .nav_items {
     flex: 1;
     justify-content: flex-end;
+    margin-right: 30px;
 }
 
 .nav_items ul, 
@@ -1073,6 +1074,8 @@ header {
 .section-footer--social-mobile{
     display: none;
 }
+
+
 @media (max-width:425px) {
     .section-contact-us--form {
         gap: 20px;
@@ -1161,14 +1164,17 @@ header {
 
 @media (min-width:450px) and (max-width:800px) {
     nav {
-        display: none;
+        display: block;
+        overflow-y: hidden;
+        visibility: hidden;
+        transition: 0.8s;
         position: absolute;
         top: 100px;
         right: 0;
         z-index: 99;
         background-color: rgba(0 , 0 , 0 , 0.9);
         width: 70vw;
-        height: calc(100vh - 100px);
+        height: 0;
     }
 
     nav ul {
@@ -1233,14 +1239,17 @@ header {
 @media (max-width:450px) {
 
     nav {
-        display: none;
+        display: block;
+        overflow-y: hidden;
+        visibility: hidden;
         position: absolute;
         top: 100px;
         right: 0;
         z-index: 99;
         background-color: rgba(0 , 0 , 0 , 0.9);
         width: 80vw;
-        height: calc(100vh - 100px);
+        height: 0;
+        transition: 0.8s;
     }
 
     nav ul {
@@ -1321,5 +1330,13 @@ header {
 
     .section-map--info-item:last-child {
         margin-bottom: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    nav.active-nav {
+        visibility: visible;
+        display: block;
+        height: calc(100vh - 100px);
     }
 }
